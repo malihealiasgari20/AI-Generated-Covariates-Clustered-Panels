@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it and the article."
+title: "Reproducibility archive: Valid Inference with AI-Generated Covariates in Clustered Business Panels"
+type: software
+authors:
+  - family-names: Nejatbakhsh
+    given-names: Yousef
+    affiliation: "Department of Statistics, Rutgers University-New Brunswick"
+  - family-names: Aliasgari
+    given-names: Malihe
+    affiliation: "School of Integrative Science and Technology, Kean University"
+    email: maliasga@kean.edu
+  - family-names: Shokoohyar
+    given-names: Sina
+    affiliation: "Department of Computing and Decision Sciences, Stillman School of Business, Seton Hall University"
+  - family-names: Kia
+    given-names: Reza
+    affiliation: "Department of Operations Management and Business Statistics, Sultan Qaboos University"
+  - family-names: Fahanzadesaadi
+    given-names: Mahshid
+    affiliation: "Department of Arts and Sciences, Rutgers University-Camden"
+repository-code: "https://github.com/malihealiasgari20/AI-Generated-Covariates-Clustered-Panels"
+date-released: 2026-11-14
+license: MIT
+keywords:
+  - large language models
+  - prediction-powered inference
+  - informative validation
+  - clustered panels
+  - look-ahead bias

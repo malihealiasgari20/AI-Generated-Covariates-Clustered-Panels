@@ -1,0 +1,59 @@
+{
+ "description": "PS-TDS-I (published, with floor) against PS-I (Module A1, without floor) on the same published panels; a bind is a replication in which the floor changed PS-TDS-I.",
+ "groups": {
+  "primary_grid": {
+   "nonnull": {
+    "cells": 12,
+    "replications": 60000,
+    "floor_binds": 1,
+    "cells_with_a_bind": 1,
+    "max_abs_diff_estimate_unbound": 4.996003610813204e-16,
+    "max_abs_diff_se_unbound": 4.440892098500626e-16,
+    "sum_se_diff_bound": -0.1543696354288151,
+    "coverage_changed": 0,
+    "rejection_of_zero_changed": 0
+   },
+   "null": {
+    "cells": 12,
+    "replications": 60000,
+    "floor_binds": 3,
+    "cells_with_a_bind": 3,
+    "max_abs_diff_estimate_unbound": 3.885780586188048e-16,
+    "max_abs_diff_se_unbound": 7.771561172376096e-16,
+    "sum_se_diff_bound": -2.9180345833650616,
+    "coverage_changed": 0,
+    "rejection_of_zero_changed": 0
+   }
+  },
+  "experiment_2_only": {
+   "nonnull": {
+    "cells": 6,
+    "replications": 30000,
+    "floor_binds": 0,
+    "cells_with_a_bind": 0,
+    "max_abs_diff_estimate_unbound": 3.3306690738754696e-16,
+    "max_abs_diff_se_unbound": 3.3306690738754696e-16,
+    "sum_se_diff_bound": 0.0,
+    "coverage_changed": 0,
+    "rejection_of_zero_changed": 0
+   },
+   "null": {
+    "cells": 4,
+    "replications": 20000,
+    "floor_binds": 0,
+    "cells_with_a_bind": 0,
+    "max_abs_diff_estimate_unbound": 3.3306690738754696e-16,
+    "max_abs_diff_se_unbound": 2.220446049250313e-16,
+    "sum_se_diff_bound": 0.0,
+    "coverage_changed": 0,
+    "rejection_of_zero_changed": 0
+   }
+  }
+ },
+ "primary_grid_total": {
+  "replications": 120000,
+  "floor_binds": 4,
+  "max_change_mean_se_table_S13": 2.572827257146918e-06,
+  "max_change_rate_per_cell": 0.0002
+ }
+}

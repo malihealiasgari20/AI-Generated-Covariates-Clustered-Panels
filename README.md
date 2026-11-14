@@ -2,7 +2,9 @@
 
 ### Informative Validation, Temporal Contamination and Stabilization
 
-**Authors:** Yousef Nejatbakhsh and Malihe Aliasgari
+**Authors:** Yousef Nejatbakhsh, Malihe Aliasgari, Sina Shokoohyar, Reza Kia and Mahshid Fahanzadesaadi
+
+**Corresponding author:** Malihe Aliasgari (maliasga@kean.edu)
 
 **Target Journal:** *Applied Stochastic Models in Business and Industry (ASMBI)*
 
@@ -26,6 +28,15 @@ The study investigates four principal questions:
 
 4. **Numerical Stabilization:** How target-direction stabilization can reduce numerical instability in rectified estimating equations without necessarily improving interval coverage.
 
+## Repository Contents
+
+| Path | Contents |
+|---|---|
+| [`ASMBI_Public_Archive.zip`](ASMBI_Public_Archive.zip) | The FINAL_V1 reproducibility archive. It covers the frozen study: Sections 4–5 of the article and Supplementary Sections S1–S7. |
+| [`post_frozen_analyses/`](post_frozen_analyses/) | The analyses run after the frozen study: Section 5.5 of the article and Supplementary Section S8, Tables S13–S19. |
+| `CITATION.cff`, `.zenodo.json` | Citation metadata. |
+| `LICENSE` | MIT License for the code. |
+
 ## Simulation Study
 
 The final study, designated **FINAL_V1**, includes:
@@ -43,7 +54,7 @@ The study uses simulated data only. It does not claim validation using an actual
 
 ## Reproducibility Archive
 
-**[Access the FINAL_V1 Reproducibility Archive](ASMBI_Public_Archive%20%281%29.zip)**
+**[Access the FINAL_V1 Reproducibility Archive](ASMBI_Public_Archive.zip)**
 
 The downloadable ZIP contains:
 
@@ -60,6 +71,24 @@ The archive includes a detailed `README.md` with software requirements and instr
 
 **Important:** The original per-replication raw checkpoints are not included because of their size. They can be regenerated using the supplied simulation code and seed specifications.
 
+## Analyses After the Frozen Study
+
+The folder [`post_frozen_analyses/`](post_frozen_analyses/) holds the analyses reported in Section 5.5 of the article and in Supplementary Section S8.
+
+**Status.** These analyses were specified after the FINAL_V1 results were known. They were fixed in a written plan before any of them was run: the plan was sealed by SHA-256 on 13 November 2026. They are reported as post-hoc analyses and change no FINAL_V1 hypothesis classification.
+
+**What they cover:**
+
+| Topic | Supplementary tables |
+|---|---|
+| Linearized and bootstrap standard errors for rectifiers with a random normalization | S13 and S14 |
+| An independent-shock control that separates leakage from added measurement error | S15 and S16 |
+| Predict-then-debias and design-weighted, tuned PPI++ comparators | S17 |
+| Validation strata observed before annotation | S18 |
+| Interval availability and small-cluster intervals under sparse validation | S19 |
+
+**The folder contains** the plan and its seal, the code, every summary table, the run log and a SHA-256 manifest. Its `README.md` gives the commands that reproduce the results. The per-replication outputs (about 72 MB) are not included; they are regenerated exactly from the code and seeds.
+
 ## Software
 
 The simulation environment used:
@@ -75,29 +104,28 @@ Please consult the documentation inside the archive for execution instructions a
 
 The FINAL_V1 experimental protocol was frozen on November 3, 2026, before the final simulation run.
 
-The research distinguishes prospective tests from confirmatory re-estimates, reports unsuccessful hypothesis tests, and acknowledges limitations involving sparse validation and unevaluated statistical procedures.
+The research distinguishes prospective tests from confirmatory re-estimates, reports unsuccessful hypothesis tests, and acknowledges limitations involving sparse validation and unevaluated statistical procedures. The analyses after the frozen study were fixed in a sealed plan before they were run and are reported separately from the frozen study.
 
 ## Citation
 
 If you use this research archive, please cite:
 
-Nejatbakhsh, Y., & Aliasgari, M. (2026). *Valid Inference with AI-Generated Covariates in Clustered Business Panels: Informative Validation, Temporal Contamination and Stabilization*. Manuscript prepared for Applied Stochastic Models in Business and Industry.
+Nejatbakhsh, Y., Aliasgari, M., Shokoohyar, S., Kia, R., & Fahanzadesaadi, M. (2026). *Valid Inference with AI-Generated Covariates in Clustered Business Panels: Informative Validation, Temporal Contamination and Stabilization*. Manuscript prepared for Applied Stochastic Models in Business and Industry.
 
-Citation metadata is also provided in the archive's `CITATION.cff` file.
+Citation metadata is provided in `CITATION.cff`.
 
 ## License
 
-The simulation code is distributed under the MIT License. The accompanying protocol, outputs, and documentation are released under Creative Commons Attribution 4.0 (CC BY 4.0).
-
-See the license and documentation files included in the archive.
+The simulation and analysis code is distributed under the MIT License (`LICENSE`). The accompanying protocol, outputs, and documentation are released under Creative Commons Attribution 4.0 (CC BY 4.0).
 
 ## Contact
+
+**Malihe Aliasgari** (corresponding author)  
+School of Integrative Science and Technology  
+Kean University  
+Email: maliasga@kean.edu
 
 **Yousef Nejatbakhsh**  
 Department of Statistics  
 Rutgers University–New Brunswick  
 Email: yousef.nejatbakhsh@rutgers.edu
-
-**Malihe Aliasgari**  
-School of Integrative Science and Technology  
-Kean University
